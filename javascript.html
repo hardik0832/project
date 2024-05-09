@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="javascript.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <div class="sidebar">
+        <h2>JAVA SCRIPT</h2>
+        <ul>
+            <li><a href="intro">Introduction to JS</a></li>
+            <li><a class="page-scroll"href="#what">What is Js</a></li>
+            <li><a href="#syntax">JS Variable </a></li>
+            <li><a href="#global">JS Global </a></li>
+            <li><a href="#comment">JS comment</a></li>
+            <!-- <li><a href="#">JS </a></li> -->
+    
+            <li><a href="#data">JS Data Types</a></li>
+            <li><a href="#if">JS if Statement</a></li>
+            <li><a href="#loop">JS Loop</a></li>
+            <li><a href="#opertaors">JS Opertaors</a></li>
+
+        </ul> 
+    </div>
+    <section id="intro"></section>
+    <div class="main_content">  
+        <div class="info" >
+          <h2>JavaScript Tutorial</h2><br>
+          <img  id ="im" src="images/JavaScript-Logo.png"
+
+          <pre> Our JavaScript Tutorial is designed for beginners and professionals both. JavaScript is used to create client-side dynamic pages.
+            JavaScript is an object-based scripting language which is lightweight and cross-platform.
+            JavaScript is not a compiled language, but it is a translated language. The JavaScript Translator (embedded in the browser) is responsible for translating the JavaScript code for the web browser.
+           
+           <pre> 
+
+<h2>Features of JavaScript</h2>
+<pre>
+    <p>There are following features of JavaScript:<br>
+        1.All popular web browsers support JavaScript as they provide built-in execution environments.<br>
+        2. JavaScript follows the syntax and structure of the C programming language. Thus, it is a structured programming language.<br>
+        3.  JavaScript is a weakly typed language, where certain types are implicitly cast (depending on the operation).<br>
+        4.   JavaScript is an object-oriented programming language that uses prototypes rather than using classes for inheritance.<br>
+        5.  It is a light-weighted and interpreted language.<br>
+        6.  It is a case-sensitive language.<br>
+        7. JavaScript is supportable in several operating systems including, Windows, macOS, etc.<br>
+        8.  It provides good control to the users over the web browsers.<br>
+    </p>
+    <h3>History of JavaScript</h3>  
+<p>In 1993, Mosaic, the first popular web browser, came into existence. In the year 1994,
+   Netscape was founded by Marc Andreessen. He realized that the web needed to become more dynamic.
+   Thus, a 'glue language' was believed to be provided to HTML to make web designing easy for designers
+   and part-time programmers. Consequently, in 1995, the company recruited Brendan Eich
+   intending to implement and embed Scheme programming language to the browser. But, before Brendan could start, 
+   the company merged with Sun Microsystems for adding Java into its
+   Navigator so that it could compete with Microsoft over the web technologies and platforms. Now, two languages were
+   there: Java and the scripting language. Further, Netscape decided to give a similar name to the scripting language as Java's.
+   It led to 'Javascript'. Finally, in May 1995, Marc Andreessen coined the first code of Javascript named 'Mocha'. Later, the marketing team
+   replaced the name with 'LiveScript'. But, due to trademark reasons and certain other reasons, in December 1995, the language was finally
+    renamed to 'JavaScript'. From then, JavaScript came into existence.</p>
+
+    <h1>Application of JavaScript</h1>
+    <p>JavaScript is used to create interactive websites. It is mainly used for:<br>
+        1.Client-side validation,
+        2.Dynamic drop-down menus,
+        3.Displaying date and time,
+        4.Displaying pop-up windows and dialog boxes (like an alert dialog box, confirm dialog box and prompt dialog box),
+        5.Displaying clocks etc.
+        <pre>
+            
+        </pre>
+        <section id ="what">
+<h1>What is JavaScript</h1>
+<p>
+    JavaScript (js) is a light-weight object-oriented programming language which is used by several websites for scripting the webpages. It is an interpreted,
+     full-fledged programming language that enables dynamic interactivity on websites when applied to an HTML document. It was introduced in the year 1995 for 
+     adding programs to the webpages in the Netscape Navigator browser. Since then, it has been adopted by all other graphical web browsers. With JavaScript, users
+    can build modern web applications to interact directly without reloading the page every time. The traditional website uses js to provide several forms of 
+      interactivity and simplicity.
+
+    Although, JavaScript has no connectivity with Java programming language. The name was suggested and provided in the times when Java was gaining popularity 
+     in the market. In addition to web browsers, databases such as CouchDB and MongoDB uses JavaScript as their scripting and query language.
+</p>
+<p>
+    JavaScript (JS) is the most popular lightweight, interpreted compiled programming language. It can be used for both Client-side as well as Server-side developments. 
+    It is also known as a scripting language for web pages. This free JavaScript Tutorial is designed to help both beginners and experienced professionals master the 
+    fundamentals of JavaScript and unleash their creativity to build powerful web applications. From basic syntax and data types to advanced topics such as object-oriented
+    programming and DOM manipulation.
+</p>
+<h1>Example</h1>
+<div id ="examplebox">
+    <xmp>
+    <script>  
+            ("Hello JavaScript by JavaScript");    
+    </script>
+    </xmp>
+    
+</div>
+</section>
+<pre>
+
+</pre>
+<section id="syntax">
+<h1>JavaScript Variable</h1>
+<p>A JavaScript variable is simply a name of storage location. There are two types of variables 
+    in JavaScript : local variable and global variable.<br>
+    There are some rules while declaring a JavaScript variable (also known as identifiers).</p><br>
+    1.Name must start with a letter (a to z or A to Z), underscore( _ ), or dollar( $ ) sign.
+    2.After first letter we can use digits (0 to 9), for example value1.
+    3.JavaScript variables are case sensitive, for example x and X are different variables
+    <h5>Correct JavaScript variables</h5>
+    <div id="box2">
+        <p>
+            var x = 20;
+            var value="name";
+        </p>
+    </div>
+    <h5>Incorrect JavaScript variables
+    </h5>
+    <div id="box3">
+        <p>
+            var 123=30
+            var *aa=333;
+        </p>
+    </div>
+</section>
+<pre>
+
+</pre>
+<section id="comment">
+<h1>
+    JavaScript Comment
+</h1>
+<p>
+    he JavaScript comments are meaningful way to deliver message. It is used to add information about the code,
+     warnings or suggestions so that end user can easily interpret the code.
+    The JavaScript comment is ignored by the JavaScript engine i.e. embedded in the browser.
+
+Advantages of JavaScript comments:
+          1.To make code easy to understand It can be used to elaborate the code so that end 
+          user can easily understand the code.<br>
+          2.To avoid the unnecessary code It can also be used to avoid the code being executed. 
+          Sometimes, we add the code to perform some action. But after sometime, there may be need 
+          to disable the code. In such case, it is better to use comments.
+ <h1>Types of JavaScript Comments
+</h1>
+There are two types of comments in JavaScript.
+
+        1.Single-line Comment
+        2.Multi-line Comment
+        <h2>JavaScript Single line Comment</h2>
+        it is represented by double forward slashes (//). It can be used before and after the statement.
+        Let’s see the example of single-line comment i.e. added before the statement.
+
+<div  id="box4">
+    <xmp>
+        <script>  
+            // It is single line comment  
+            document.write("hello javascript");  
+            </script>
+    </xmp>
+</div>
+Let’s see the example of single-line comment i.e. added after the statement.
+<div id="box5">
+    <xmp>
+        <script>  
+            var a=10;  
+            var b=20;  
+            var c=a+b;//It adds values of a and b variable  
+            document.write(c);//prints sum of 10 and 20  
+            </script>  
+
+    </xmp>
+</div>
+<h2>JavaScript Multi line Comment
+</h2>
+It can be used to add single as well as multi line comments. So, it is more convenient.
+It is represented by forward slash with asterisk then asterisk with forward slash. For example:
+<div id="sm">
+<xmp>
+    /* your code here  */  
+</xmp>
+</div>
+It can be used before, after and middle of the statement.
+<div id="box6">
+    <xmp>
+        <script>  
+            /* It is multi line comment.  
+            It will not be displayed */  
+            document.write("example of javascript multiline comment");  
+            </script>
+    </xmp>
+</div>
+</p>
+</section>
+<section id="global">
+   <h1>JavaScript Global Variable</h1> 
+   <p>
+    A JavaScript global variable is declared outside the function or declared with window object. It can be accessed from any function.<br>
+    Let’s see the simple example of global variable in JavaScript.
+<div id="boxgoble1">
+    <xmp>
+        <script>  
+            var value=50;//global variable  
+            function a(){  
+            alert(value);  
+            }  
+            function b(){  
+            alert(value);  
+            }  
+            </script>
+    </xmp>
+</div>
+<h2>Declaring JavaScript global variable within function</h2>
+    To declare JavaScript global variables inside function, you need to use window object. For example:
+<div id="boxgoble2">
+    window.value=90;  
+
+</div>
+Now it can be declared inside any function and can be accessed from any function. For example:
+
+<div id ="boxgoble3">
+    <xmp>
+        <script>
+            function m(){  
+            window.value=100;//declaring global variable by window object  
+            }  
+            function n(){  
+            alert(window.value);//accessing global variable from other function  
+            }  
+            m();
+            n();
+            </script> 
+    </xmp>
+</div>
+
+   </p>
+</section>
+<section id="data">
+    <h1>Javascript Data Types
+    </h1>
+    <pre>JavaScript provides different data types to hold different types of values. There are two types of data types in JavaScript.
+
+        1.Primitive data type
+        2.Non-primitive (reference) data type
+
+        JavaScript is a dynamic type language, means you don't need to specify type of the variable because 
+        it is dynamically used by JavaScript engine. You need to use var here to specify the data type.
+         It can hold any type of values such as numbers, strings etc. For example:</pre>
+<div id="databox1">
+    <xmp>
+        var a=40; //holding number  
+        var b="Rahul";//holding string 
+
+    </xmp>
+</div>
+<h1>JavaScript primitive data types
+</h1>
+<p>
+    There are five types of primitive data types in JavaScript. They are as follows:
+    
+
+</section>
+<section id="if">
+    <h1>JavaScript If-else
+    </h1>
+    <p>
+        The JavaScript if-else statement is used to execute the code whether condition is true or false. 
+        There are three forms of if statement in JavaScript.
+
+            1.if Statement
+            2.If else statement
+            3.if else if statement
+            <h2>
+                JavaScript If statement
+
+            </h2>
+   It evaluates the content only if expression is true. The signature of JavaScript if statement is given below.
+
+  <div id ="boxif">
+    <xmp>
+        if(expression){  
+            //content to be evaluated  
+            }
+    </xmp>
+  </div>
+     Let’s see the simple example of if statement in javascript.
+
+<div id="boxif2">
+    <xmp>
+        <script>  
+            var a=20;  
+            if(a>10){  
+            document.write("value of a is greater than 10");  
+            }  
+            </script>
+    </xmp>
+</div >
+<h1>JavaScript If...else Statement
+</h1>
+It evaluates the content whether condition is true of false. The syntax of JavaScript if-else statement is given below.
+
+
+
+<div id="boxif3">
+    <xmp>
+        if(expression){  
+            //content to be evaluated if condition is true  
+            }  
+            else{  
+            //content to be evaluated if condition is false  
+            }  
+    </xmp>
+</div>
+    </p>
+</section>
+<section id="loop">
+<h1>
+    JavaScript Loops
+</h1>
+<p>The JavaScript loops are used to iterate the piece of code using for, while,
+     do while or for-in loops. It makes the code compact. It is mostly used in array.
+
+     There are four types of loops in JavaScript.
+
+     1.for loop
+     2.while loop
+     3.do-while loop
+     4.for-in loop
+
+     <h1>1) JavaScript For loop
+    </h1>
+
+    The JavaScript for loop iterates the elements for the fixed number of times.
+     It should be used if number of iteration is known. The syntax of for loop is given below.
+
+
+    </p>
+
+</section>
+</div>
+    </div>
+</body>
+</html>
